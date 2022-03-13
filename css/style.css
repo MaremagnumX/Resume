@@ -1,114 +1,206 @@
-/*Bio style*/
-.bio-title {
-      font-size: 45px;
-      line-height: 2;
-      margin-bottom: 20px;
+.body {
+  background-color: #f5f7fa;
+  padding: 40px;
 }
 
-.bio-occupation {
-      margin-bottom: 27px;
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1);
+  font-family: "Fira Code", monospace;
 }
 
-.bio-about {
-      color: #595959;
+.photo {
+  width: 370px;
 }
 
-.bio-title, .bio-occupation  {
-      color: #2a2a2a;
+/*Left side*/
+.left-side {
+  width: 370px;
+  min-height: 370px;
+  background-color: #1e2939;
 }
 
-.bio-occupation, .bio-about {
-      font-size: 14px;
-      line-height: 1.714;
+/*Contacts style*/
+.contacts-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #fff;
 }
 
-/*Projects list style*/
-.projects-tittle {
-      font-size: 22px;
-      line-height: 1.091;
-      color: #2a2a2a;
-      margin-bottom: 14px;
+.contacts-item {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #fff;
 }
 
-.projects-item {
-      font-size: 14px;
-      line-height: 1.714;
-      color: #595959;
+.contacts-link {
+  color: #fff;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
-/*Jobs style*/
-.jobs-title {
-      font-size: 22px;
-      line-height: 1.091;
-      color: #2a2a2a;
-      margin-bottom: 26px;
+.contacts-link:hover {
+  opacity: 1;
 }
 
-.jobs-occupation {
-      font-size: 16px;
-      line-height: 1.5;
-      color: #2a2a2a;
-      margin-bottom: 16px;
+/*Skills style*/
+.skills-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #fff;
 }
 
-.jobs-time {
-      font-size: 12px;
-      line-height: 2;
-      color: #828282;
-      margin-bottom: 18px;
+.skills-item {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #fff;
 }
 
-.jobs-list {
-      margin-bottom: 28px;
+.skills-list {
+  list-style: none;
+  padding-left: 0;
 }
 
-.jobs-item {
-      font-size: 14px;
-      line-height: 1.714;
-      color: #595959;
-      margin-bottom: 10px;
+.skills-item::before {
+  content: "\2022";
+  margin-right: 8px;
+  color: #ff6b08;
+  font-size: 18px;
 }
 
-/*Education style*/
-.education-title {
-      font-size: 22px;
-      line-height: 1.091;
-      color: #2a2a2a;
-      margin-bottom: 26px;
+.photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;
 }
 
-.education-degree {
-      font-size: 16px;
-      line-height: 1.5;
-      color: #2a2a2a;
-      margin-bottom: 16px;
-}
-
-.education-time {
-      font-size: 12px;
-      line-height: 2;
-      color: #828282;
-      margin-bottom: 18px;
+.contacts,
+.skills {
+  padding-left: 40px;
 }
 
 /*Right side*/
 .right-side {
-      padding-top: 68px;
-      padding-right: 200px;
-      padding-bottom: 68px;
-      padding-left: 80px;
+  padding-top: 68px;
+  padding-right: 200px;
+  padding-bottom: 68px;
+  padding-left: 80px;
+  width: 830px;
 }
 
-.bio, .projects, .jobs, .education {
-      margin-bottom: 60px;
+/*Bio style*/
+.bio-title {
+  font-size: 45px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.bio-occupation {
+  margin-bottom: 27px;
+}
+
+.bio-about {
+  color: #595959;
+}
+
+.bio-title,
+.bio-occupation {
+  color: #2a2a2a;
+}
+
+.bio-occupation,
+.bio-about {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/*Projects list style*/
+.projects-tittle {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+  margin-bottom: 14px;
+}
+
+.projects-item {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #595959;
+}
+
+/*Jobs style*/
+.jobs-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+  margin-bottom: 26px;
+}
+
+.jobs-occupation {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a2a2a;
+  margin-bottom: 16px;
+}
+
+.jobs-time {
+  font-size: 12px;
+  line-height: 2;
+  color: #828282;
+  margin-bottom: 18px;
+}
+
+.jobs-list {
+  margin-bottom: 28px;
+}
+
+.jobs-item {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #595959;
+  margin-bottom: 10px;
+}
+
+/*Education style*/
+.education-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+  margin-bottom: 26px;
+}
+
+.education-degree {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a2a2a;
+  margin-bottom: 16px;
+}
+
+.education-time {
+  font-size: 12px;
+  line-height: 2;
+  color: #828282;
+  margin-bottom: 18px;
+}
+
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
 }
 
 /*Global style*/
 .link {
-      color: #595959;
-      text-decoration: none;
+  color: #595959;
+  text-decoration: none;
 }
 
-.accent, .link:hover {
-      color: #ff6b08;
+.accent,
+.link:hover {
+  color: #ff6b08;
 }
